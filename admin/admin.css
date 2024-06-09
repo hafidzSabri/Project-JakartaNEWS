@@ -1,0 +1,179 @@
+@import url('http://fonts.cdnfonts.com/css/aferd');
+img {
+  width: 350px;
+  height: 350px;
+  border-radius: 0%;
+  border: 5px solid purple;
+  margin-top: 15px;
+}
+
+h2{
+  font-family: 'aferd', sans-serif;
+  background-color: #2acaea;
+  margin: 15px;
+}
+
+body {
+  background: url(img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+ul {
+  transition:background-color 200ms ease; 
+  transition-duration: 0.2s;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2acaea;
+}
+
+li {
+  transition:background-color 200ms ease; 
+  transition-duration: 0.2s;
+  float: left;
+}
+
+li a {
+  transition:background-color 200ms ease; 
+  transition-duration: 0.2s;
+  display: flex;
+  color: black;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'aferd', sans-serif; 
+}
+
+li a:hover {
+  background-color: #800080;
+}
+
+tr td {
+  border: 5px solid white;
+  transition:background-color 200ms ease;
+  transition-duration: 0.2s;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+  border: 0px ; padding: 30px;
+  text-align: center;  color : rgb(0, 0, 0);
+  font-family: 'aferd', sans-serif;
+  font-size: large; transition-duration: 0.4s;
+}
+
+tr:nth-child(odd) {
+  background-color: #939393;
+  border: 0px ; padding: 100px;
+  text-align: center;  color : rgb(0, 0, 0);
+  font-family: 'aferd', sans-serif;
+  font-size: large;transition-duration: 0.4s;
+}
+
+tr:hover {
+  background-color: rgb(193, 104, 210);
+  transition-duration: 0.4s;
+  text-decoration: none;
+} 
+
+th {
+  border: 1px ; padding: 10px;
+  text-align: center;
+  background-color:rgb(25, 181, 150);
+  color : rgb(0, 0, 0);
+  font-family: 'aferd', sans-serif; 
+  font-size: large; 
+}
+
+.btnsubmit{
+  background-color: rgb(25, 181, 150);
+  border: 0px solid #124d61;
+  color: #000000;
+  margin: 4px 2px;
+  padding: 8px 20px;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  font-family: 'aferd',sans-serif;
+  font-size: large;  
+}
+
+.btnsubmit a{
+  text-decoration: none;
+    background-color: rgb(25, 181, 150);
+}
+
+.btnsubmit:hover{
+  background-color:rgb(193, 104, 210);
+  color: rgb(255, 255, 255);
+}
+
+.kotaktext{
+  border-radius: 50%;
+  font-family: 'aferd', sans-serif;
+}
+
+.form-container {
+    margin-top: 5px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+}
+  
+form .txtField {
+    margin-top: 10px;
+}
+  
+.txtField input{
+    padding: 4px 10px;
+    height: 40px;
+    border: 10px;
+    margin: 3px auto 0;
+    width: 20%;
+    background: #F2F4FA;
+    border-radius: 6px;
+}
+  
+.txtField label {
+    font-size: 14px;
+}
+  
+.btn-close {
+    cursor: pointer;
+    display: inline;
+    background-color: white;
+    border: 2px solid #52FFA8;
+    border-radius: 6px;
+    width: 150px  ;
+    height: 35px;
+    margin-left: 30px;
+    font-size: medium;
+    margin-top: 10px;
+}
+  
+.btn-close a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-simpan {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+    width: 150px;
+    height: 35px;
+    background-color: #52FFA8;
+    border-radius: 6px;
+    color: #323a49;
+    border: none;
+    color: black;
+    margin-left: 30px;
+    font-size: medium;
+}
+  
+.btn-group {
+    margin-left: 50%;
+}
